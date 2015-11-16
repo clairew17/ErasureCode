@@ -1,5 +1,6 @@
 echo "git add..."
 git add .
+
 if ![ -e "$1"];
 then
     echo "$# paramter passed,please add commit info!"
